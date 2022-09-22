@@ -1,0 +1,32 @@
+.col-md-5{
+    border: 1px solid orange;
+}
+
+.col-md-7{
+    border: 1px solid blue;
+}
+
+.card-body{
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.card-iamge{
+    
+}
+
+.card{
+    border-radius: 0px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
+}
+
+.about-me{
+    box-shadow: none;
+}
+
+img{
+    height: 500px;
+    object-fit: cover;
+}

@@ -27,7 +27,8 @@ box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
 .card-title{
     text-align: center;
     /* color: #36454f; */
-    color: #0d1113;
+    /* color: #0d1113; */
+    color: #202020;
     font-weight: bold;
     font-size: 100px;
 }

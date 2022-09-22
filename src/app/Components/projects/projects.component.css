@@ -1,0 +1,86 @@
+body,
+html {
+    height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.bg-image1 {
+    background-image: url("../../../assets/images/martTypeBackground.png");
+    height: 75%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-image2 {
+    background-image: url("../../../assets/images/martflipBackground.png");
+    height: 75%;
+    padding-top: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+/* .project-title h1 {
+    margin: 0px;
+} */
+
+.project-desc-right {
+    float: right;
+    width: 20%;
+    margin-top: 5%;
+    color: #8f8e84;
+    background-color: #474741;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
+    cursor: pointer;
+}
+
+.project-title-right {
+    /* border: 1px solid orange; */
+    height: auto;
+    text-align: right;
+    padding-right: 20px;
+    padding-top:10px ;
+}
+
+
+.project-info-right {
+    padding-right: 20px;
+    /* border: 1px solid red; */
+    text-align: right;
+}
+
+.project-desc-left {
+    width: 20%;
+    color: #8f8e84;
+    background-color: #333333;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
+    cursor: pointer;
+}
+
+
+.project-title-left {
+    /* border: 1px solid orange; */
+    height: auto;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.project-info-left {
+    padding-left: 20px;
+    padding-bottom: 10px;
+    /* border: 1px solid red; */
+    text-align: left;
+}
+
+@media only screen and (max-width:800px) {
+    .project-desc-right, .project-desc-left {
+        width: 50%;
+    }
+}
