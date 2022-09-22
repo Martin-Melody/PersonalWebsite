@@ -1,6 +1,5 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
-import { faLinkedin, faGithub, faMicrosoft  } from "@fortawesome/free-brands-svg-icons";
-import {  } from "@fortawesome/free-regular-svg-icons";
+// import { faLinkedin, faGithub, faMicrosoft  } from "@fortawesome/free-brands-svg-icons";
 
 @Component({
   selector: 'app-home',
@@ -8,9 +7,9 @@ import {  } from "@fortawesome/free-regular-svg-icons";
   styleUrls: ['./home.component.css'],
 })
 export class HomeComponent implements OnInit, OnDestroy {
-  faLinkedin = faLinkedin;
-  faGithub = faGithub;
-  faMicrosoft = faMicrosoft;
+  // faLinkedin = faLinkedin;
+  // faGithub = faGithub;
+  // faMicrosoft = faMicrosoft;
 
   constructor() {}
 
